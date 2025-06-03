@@ -1,0 +1,20 @@
+[project]
+name = "hist-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andy Miles", email = "andy@proquickly.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "delta-spark>=3.3.2",
+    "pytest>=8.4.0",
+]
+
+[project.scripts]
+hist-data = "hist_data:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
