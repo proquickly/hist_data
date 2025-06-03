@@ -1,5 +1,11 @@
 # Databricks
 
+## Installation
+Fork, clone and uv lock
+
+Be sure to add the databricks packages using uv add...
+
+
 This implementation provides a Databricks solution with:
 
 - **Incremental processing** using Auto Loader and Delta Lake streaming
